@@ -3,6 +3,7 @@ application:
   name: "ubuntu-xrdp"
   project: "wordpress"
   organization: "QoveryCommunity"
+  publicly_accessible: true
   storage:
   - name: "hd"
     size: "10"
