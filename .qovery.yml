@@ -1,0 +1,16 @@
+---
+application:
+  name: "ubuntu-xrdp"
+  project: "wordpress"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "hd"
+    size: "10"
+    type: "ssd"
+    mount_point: "/mnt/hd"
+routers:
+- name: "main-ubuntu-xrdp"
+  routes:
+  - application_name: "ubuntu-xrdp"
+    paths:
+    - "/*"
